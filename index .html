@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@900;1000&family=Kanit:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+        <!-- =============================NAVBAR================= -->
+        <header class="position-sticky">
+            <div class="container">
+             <nav class="navbar text-dark navbar-expand-lg">
+              <div class="container colorm">
+                <div class="d-flex" >
+                  <h3 class="font" style="font-size: 40px;">
+                    C<span class=""><i class="fa-solid fa-virus-covid text-danger"></i></span>VID 19
+                </h3>
+                    <button class="navbar-toggler colorm " data-bs-toggle="collapse" data-bs-target="#topNav">
+                       <span class="text-dark">Menu</span>
+                        <span class="navbar-toggler-icon fs-3"></span>
+                    </button>
+                </div>
+           
+             <div class="collapse navbar-collapse" id="topNav">
+               <ul class="navbar-nav ms-auto">
+                 <li class="nav-item h5  ">
+                  <a href="#" class="nav-link colorm hooverr home-nav  H_l">Home</a>
+                 </li>
+                 <li class="nav-item h5 ps-2" >
+                  <a href="#about" class="nav-link colorm hooverr H_l" onchange="active()">About Corona</a>
+                 </li>
+                <li class="nav-item h5 ps-2 ">
+                  <a href="#symptoms" class="nav-link colorm hooverr H_l">Symptoms</a>
+                 </li>
+                  <li class="nav-item h5 ps-2">
+                      <a href="#prevention" class="nav-link colorm hooverr H_l">Prevention</a>
+                  </li>
+                  <li class="nav-item h5 ps-2">
+                    <a href="#treatment" class="nav-link colorm hooverr H_l">Treatment</a>
+                </li>
+                <li class="nav-item h5 ps-2">
+                    <a href="#faq" class="nav-link colorm hooverr H_l">FAQ</a>
+                </li>
+                <li class="nav-item h5 ps-2 ">
+                    <a href="#news" class="nav-link colorm hooverr H_l">News</a>
+                </li>
+                <a href="#dont" class="nav-link"><button class="btn bgcm text-light buttns ms-4 ps-4 pe-4">Do & Don't</button></a>
+                 
+               </ul>
+             </div>
+           </div>
+         </nav>
+
+        </header>
+         <!-- =============================HOME-PAGE================= -->
+        <section class="main">
+           <div class=" d-flex container">
+            
+            <div class="container main-container ps-5">
+              <div class="d-sm-flex">
+                <div class="h1 font colorm" id="Corona">
+                 CORONA
+                </div>
+                <div class="h5 font" style="font-size: 40px;">
+                 <div class="text-orange" >COVID-19</div>
+                 <div class="colorm py-2">VIRUS</div>
+                </div>
+            </div>
+            <div class="py-4 ">
+             The Corona virus (COVID-19) was first reported in Wuhan,
+             Hubei, china in December 2019, the outbreak was later recogmized as a pandemic by 
+             the World Health Organization (WHO) on 11 March 2020.
+            </div>
+            <div class="d-sm-flex py-5">
+             <button class="btn bgcm text-light py-3 ps-4 pe-4 buttns">How To Protect <i class="fa-sharp fa-solid fa-shield-halved"></i></button>
+             <button class="btn colors ms-sm-4 ps-4 pe-4 my-2-sm buttns">About Covid-19 <i class="fa-solid fa-arrow-right"></i>
+             </button>
+            </div>
+            <div class="d-md-flex w-100 justify-content-between">
+              <div><p>WORLDWIDE CASES</p><div class="font colorm fontsize pe-2">8,949,671</div></div>
+              <div><p>DEATHS</p><div class="font colorm fontsize pe-2" >467,432</div></div>
+              <div><p>RECOVERED</p><div class="font colorm fontsize" >4,556,091</div></div>
+
+            </div>
+            <div class="py-5 " style="font-style: italic; font-size: 10px;">*Last updated Jun21,2020, 09:24 AM AmericaChicago</div>
+           </div>
+
+           <div><img src="imgs/header-a.png" class="header-photo"></div>
+
+            </div>
+            
+        </section>
+        <button id="butt" class="bgcm" onclick="topscreen()">
+          <i class="fa-sharp fa-solid fa-arrow-up"></i>
+       </button>
+         <!-- =============================ABOUT-PAGE================= -->
+        <section class="container about d-md-flex " id="about">
+         <div class=" container"> 
+          <div class="width_50 ms-5">
+            <p class="colors">ABOUT THE DISEASE</p>
+            <h2 class="font colorm" style="font-size: 40px;">CORONAVIRUS (COVID-19)</h2>
+            <P><span style="font-weight: bold;">COVID-19 is a new illness that can affect your lungs and airways.</span> It's caused 
+               by a virus called coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China.
+            </P>
+            <p>Common signs of infection include respiratory symptoms, fever,cough, shortness of breathing difficulties. 
+              In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome,kidney failure and even death.
+            </p>
+             <p>
+              Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose 
+              when coughing and sneezing throughly cooking meat and eggs. Avoid close contact with anyone showing symptoms
+              of respiratory illness such as coughing and sneezing.
+             </p>
+            </div>
+          </div>
+         <div class="border  width_50 about-table table-responsive-md ms-5">
+          <h4 class="p-3 ps-5">What you need to know</h4>
+          <div class="colors border  p-3 d-flex justify-content-between pe-4">How coronavirus spreads <i class="fa-solid fa-arrow-right"></i></div>
+          <div  class="colors border p-3 d-flex justify-content-between pe-4">Symptoms of coronavirus <i class="fa-solid fa-arrow-right"></i></div>
+          <div  class="colors border  p-3 d-flex justify-content-between pe-4">How to protect yourself <i class="fa-solid fa-arrow-right"></i></div>
+          <div  class="colors border  p-3 d-flex justify-content-between pe-4">Treatment for coronavirus <i class="fa-solid fa-arrow-right"></i></div>
+          <div  class="colors border p-3 d-flex justify-content-between pe-4">Myth-Busters of coronavirus <i class="fa-solid fa-arrow-right"></i></div>
+          <div  class="colors p-3 d-flex justify-content-between pe-4">Questions & Answers <i class="fa-solid fa-arrow-right"></i></div>
+         </div>
+        </section>
+         <!-- =============================SYMPTOMS-PAGE================= -->
+        <section class="text-center about-pt2 ">
+          <p class="colors">HOW CORONAVIRUS IS SPREAD</p>
+          <h2 class="font colorm">TRANSMISSION OF COVID-19</h2>
+          <p class="">Because it's a new illness, we do not know exactly how coronavirus spread
+            from person to person. Similar viruses spread in cough droplets.
+          </p>
+          <div class="d-flex justify-content-between my-5  container" style="flex-wrap: wrap;">
+            <div class="my-3 crd" style="width: 18rem;">
+              <img class="card-img-top border_bottom" src="imgs/spread-a.png" alt="Card image cap">
+              <div class="card-body my-4">
+                <div class="colors">Person-to-person spread as close contact with infected</div>
+                <p>The coronavirus is thought to spread mainly from person to person. This
+                  can happen between people who are in close contact with one another.
+                </p>
+               
+              </div>
+            </div>
+            <div class=" my-3 crd" style="width: 18rem;">
+              <img class="card-img-top border_bottom" src="imgs/spread-b.png" alt="Card image cap">
+              <div class="card-body my-4">
+                <div class="colors">Touching or contact with infected surfaces or objects</div>
+                <p>
+                  A person can get COVID-19 by touching a surface or object that has the virus on it and then touching
+                  their own mouth, nose, or possibly their eyes.
+                </p>
+               
+              </div>
+            </div>
+            <div class="my-3 crd" style="width: 18rem;">
+              <img class="card-img-top border_bottom" src="imgs/spread-c.png" alt="Card image cap">
+              <div class="card-body my-4">
+                <div class="colors">Droplets that from infected person coughs or sneezes</div>
+                <p>The coronavirus is thought to spread mainly from person to person. This
+                  can happen between people who are in close contact with one another.
+                </p>
+               
+              </div>
+            </div>
+            
+        </div>
+        <button class="btn bgcm text-light py-3 ps-4 pe-4 buttns my-5">Have Question about spreading?<i class="fa-sharp fa-solid fa-shield-halved"></i></button>
+        </section>
+<!-- =============================================================================SYMPTOMS============================================ -->
+        <section class="symptoms text-center" id="symptoms">
+          <p class="colors">WHAT ARE THE SYMPTOMS OF COVID-19</p>
+          <h2 class="font colorm">SYMPTOMS OF CORONAVIRUS</h2>
+          <div class="d-flex justify-content-center">
+            <p class=" width_50">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients
+              may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea.
+              These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.
+            </p>
+          </div>
+          <div class="d-md-flex justify-content-between my-5 container">
+            <div class="  my-3 p-3 position-relative"style="width: 18rem;">
+             <div class="d-flex justify-content-between ">
+              <div></div>
+              <img class=" rounded-circle" src="imgs/symptom-a.png" alt="Card image cap">
+            </div>
+                  <h4 class=" ms-2 position-absolute colors" style="top:30%;">Fever</h4>
+                <p class="my-3"><span style="font-weight: bold;">High Fever</span> -this means you feel hot to touch on your chest or back (you do not need to
+                  measure your temperature). It is a common sign and also may appear in 2-10 days if you affected.
+                </p>
+            </div>
+            <div class="  my-3 p-3 position-relative"style="width: 18rem;">
+              <div class="d-flex justify-content-between ">
+               <div></div>
+               <img class=" rounded-circle" src="imgs/symptom-b.png" alt="Card image cap">
+             </div>
+                 <h4 class=" ms-2 position-absolute colors" style="top:30%;">Cough</h4>
+                 <p class="my-3"><span style="font-weight: bold;">High Fever</span> -this means coughing a lot for more than an hour, or 3 or more
+                  coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).
+                 </p>
+             </div>
+             <div class="  my-3 p-3 position-relative"style="width: 18rem;">
+              <div class="d-flex justify-content-between ">
+               <div></div>
+               <img class=" rounded-circle" src="imgs/symptom-c.png" alt="Card image cap">
+             </div>
+                 <h4 class=" ms-2 position-absolute colors" style="top:30%;">Shortness</h4>
+                 <p class="my-3"><span style="font-weight: bold;">Difficulty breathing</span> -Around 1 out of every 6 people who get COVID-19 becomes
+                  seriously ill and develops difficulty breathing or shortness of breath.
+                 </p>
+             </div>
+        </div>
+
+       <div class="d-md-flex container justify-content-between">
+        <div class="width_50 d-flex">
+          <i class="fa-solid fa-triangle-exclamation fa-3x colors"></i>
+          <div class="ps-3">
+            <span class="colors"></i>Stay at home and call your doctor.</span><span class="italic">
+              if you thing you have been exposed to COVID-19 and develop a fever and any symptoms, such as cough
+            or difficulty breathing. Call your healthcare provider as soon as possible for medicak advice.
+            </span>
+          </div>
+        </div>
+        <button class="btn bgcm text-light py-3 ps-4 pe-4 buttns my-5">Have Question about spreading?<i class="fa-sharp fa-solid fa-shield-halved"></i></button>
+       </div>
+        </section>
+<!-- ===============================================================================PREVENTION===================================== -->
+       <section class="prevention  text-center" id="prevention">
+        <p class="colors">HOW TO PROTECT YOURSELF</p>
+        <h2 class="font colorm">PREVENTION & ADVICE</h2>
+        
+        <div class="d-flex justify-content-center">
+          <p class=" width_50">here is currently no vaccine to prevent coronavirus disease 2019 (COVID-19).
+             <span class="bold">The best way to 
+              prevent illness is to avoid being exposed to this virus.</span>
+              Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and throughl
+              your national and local public health authority.
+          </p>
+        </div>
+
+        <div class="d-md-flex container justify-content-between">
+          <div class=" my-3 p-3 position-relative"style="width: 18rem;">
+            <div>
+             <img class=" rounded-circle" src="imgs/advice-a.png" alt="Card image cap">
+           </div>
+               <p class="my-3"><span class="bold">Wash your hands frequently</span>
+                <div>Regularly and throughly clean your hands with an alcohol based hand rub or wash them with
+                  soap and water for at least 20 seconds.
+                </div>
+               </p>
+           </div>
+
+           <div class="my-3 p-3 position-relative"style="width: 18rem;">
+            <div>
+             <img class=" rounded-circle" src="imgs/advice-b.png" alt="Card image cap">
+           </div>
+               <p class="my-3"><span class="bold">Maintain social distancing</span>
+                <div>Maintain at least 1 metre(3 feet) distance between yourself & anyone who
+                  is coughing or sneezing. If you are too close, get chance to infected.
+                </div>
+               </p>
+           </div>
+
+           <div class=" my-3 p-3 position-relative"style="width: 18rem;">
+            <div>
+             <img class=" rounded-circle" src="imgs/advice-c.png" alt="Card image cap">
+           </div>
+               <p class="my-3"><span class="bold">Avoid touching face</span>
+                <div>Hands touch many surfaces and can pick up viruses. So, hands can transfer the virus
+                  to your eyes, nose or mouth and can make you sick.
+                </div>
+               </p>
+           </div>
+
+           <div class=" my-3 p-3 position-relative"style="width: 18rem;">
+            <div>
+             <img class=" rounded-circle" src="imgs/advice-d.png" alt="Card image cap">
+           </div>
+               <p class="my-3"><span class="bold">Practice respiratory hygiene</span>
+                <div>Maintain good respiratory hygine as covering your mouth & nose with your bent elbow or
+                  tissue when cough or sneeze.
+                </div>
+               </p>
+           </div>
+
+        </div>
+
+       <div class="d-md-flex justify-content-center container">
+        <button class="btn bgcm text-light py-3 ps-4 pe-4 buttns my-5 me-5">Check how you wash hand<i class="fa-solid fa-arrow-right ps-3"></i></button>
+        <button class="btn colors py-3 ps-4 pe-4 buttns my-5 ms-5">Q&A on coronavirus <i class="fa-solid fa-arrow-right ps-3"></i></button>
+        
+       
+       </div>
+       </section>
+<!-- =======================================================protection============================ -->
+       <section class="protection p-5" id="protection" >
+      <div class="container protect p-5">
+        <h1 class="colorm p-4">Take steps to protect others</h1>
+      <div class="d-md-flex container justify-content-between">
+          <div>
+            <div class="py-2">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Stay home if you're sick</span>-Stay home if you are sick, except to get medical
+            care.
+            </div>
+            <div class="py-3">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Cover your mouth and nose</span>-with a tissue when you cough or sneeze
+              (throw used tissues in the trash) or use the inside of your elbow.
+            </div>
+            <div class="py-2">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Wear a facemask if you are</span>-You should wear a facemask when you are 
+            around other people (e,g., sharing a room or vehicle) and before you enter a healthcare provider's
+            </div>
+            <div class="py-3">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold width_50">Clean AND disinfect frequently touched surfaces daily</span>-This includes phones
+            , tables, light switches,doorknobs,
+            countertops, handles, desks, toilets, faucets, and sinks.
+            </div>
+            <div class="py-2">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Clean the dirty surfaces</span>-Use detergent or soap and water prior to
+            disindection.
+            </div>
+            <div class="py-3">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Stay informed about the local COVID-19 situation</span>-Get up-to-date information
+            about local COVID-19 activity from <span class="colors">public health officials</span>
+            </div>
+            <div class="py-2 ">
+              <i class="fa-sharp fa-solid fa-check colors"></i>
+            <span class="bold">Dedicated,lined trash can</span>-If possible, dedicate a lined trash can for the ill
+            person. Use gloves when removing garbage begs, and handling & disposing of trash.
+            </div>
+          </div>
+          <img src="imgs/steps.png" alt="" class="photo-protection">
+      </div>
+      </div>
+       </section>
+
+<!-- ================================================steps=================================== -->
+<section class="steps text-center" >
+  <div class="mb-5">
+    <h3>Follow steps to wash hands</h3>
+  <button class="colors btn">Why do I need to wash hand  <i class="fa-solid fa-arrow-right ps-3"></i></button>
+  </div>
+  <div class="d-md-flex container my-5">
+    <div>
+      <img src="imgs/hand-a.png" alt="">
+      <div class="bold my-3">
+        <div>Soap on</div>
+        <div> hand</div>
+      </div>
+    </div>
+    <div>
+      <img src="imgs/hand-b.png" alt="">
+      <div class="m-3 bold">
+        <div>Plam on</div>
+        <div>plam</div>
+      </div>
+    </div>
+    <div>
+      <img src="imgs/hand-c.png" alt="">
+      <div class="bold my-3">
+        <div>Between</div>
+        <div> Fingers</div>
+      </div>
+    </div>
+    <div>
+      <img src="imgs/hand-d.png" alt="">
+      <div class="bold my-3">
+        <div>Back to</div>
+      <div> Hands</div>
+      </div>
+    </div>
+    <div>
+      <img src="imgs/hand-e.png" alt="">
+      <div class="bold my-3">
+        <div>Clean with</div>
+      <div>Water</div>
+      </div>
+    </div>
+    <div>
+      <img src="imgs/hand-f.png" alt="">
+      <div class="bold my-3">
+        <div>Focus on</div>
+        <div> Wrist</div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+<!-- ===============================================treatment======================= -->
+<section class="treatment bgcm" id="treatment">
+  <div class="container d-md-flex justify-content-between">
+     <div class=" width_50 text-light">
+      <h5 class="text-info">BE CAREFUL & STAY SAFE</h5>
+      <h1 class="font  text-light pb-3"> TREATMENT FOR CORONAVIRUS</h1>
+      <div><p><span class="bold">To date, there is no vaccine and no specific antiviral medicibe
+        to prevent or treat COVID-2019.
+      </span>
+      However,those affected should receive care to relieve symptoms.people will serious
+       illness should be hospitalized. Most patients recover thanks to supportive car. </p></div>
+       <p>Antibiotics do not help, as they do not work against viruses. Treatment aims to relieve 
+        the symptoms while your body fights the illness. You'll need to stay in isolation, away from other people,
+        until you have recovered.
+       </p>
+      </div>
+      <div class="bgcdark p-5 text-light width_35">
+       <h5 class="py-2">Self Care</h5>
+       <div>If you have mild symptoms, stay at home until you've recovered. You can relieve your symptoms if you:</div>
+       <div><i class="fa-solid fa-arrow-right pe-3"></i>Rest and sleep</div>
+       <div><i class="fa-solid fa-arrow-right pe-3"></i>Keep warm</div>
+       <div><i class="fa-solid fa-arrow-right pe-3"></i>Drink plenty of liquids</div>
+       <div><i class="fa-solid fa-arrow-right pe-3"></i>Use a room humidifier or take a hot shower to help ease a sore throat and cough</div>
+       <h5 class="py-2">Medical Treatments</h5>
+       <div>If you develop a fever, cough, and have difficulty breathing, promptly seek medical care.
+        call in advance and tell your health provider of any recent travel or recent contact with travelers.
+       </div>
+      </div>
+  </div>
+</section>
+<!-- ====================================================protection============================== -->
+<section class="requirements text-center" id="dont">
+  <div class="container">
+  <div class="pb-2">
+    <h6 class="colors">DO'S & DON'TS</h6>
+    <h1 class="font colorm my-2">PROTECT YOURSELF</h1>
+   </div>
+   <div class="mb-4"><p>The best thing you can do now is plan for how you can adapt your daily routine. Take few steps to protect yourself as Clean
+    your hands.Avoid close contact,Cover coughs and sneezes, clean daily used surfaces etc. The way to prevent illness is to avoid being exposed to this virus.
+   </p></div>
+   <div class="d-md-flex justify-content-center my-5">
+     <div>
+      <div class="colors my-4">Avoid close Contact<img src="imgs/donts-a.png" alt="" class="border_red ms-3 require_img"></div>
+      <div class="colors my-4">Don't Touch Face<img src="imgs/donts-b.png" alt="" class="border_red ms-4 require_img"></div>
+      <div class="colors my-4">Social Distancing<img src="imgs/donts-c.png" alt="" class="border_red ms-4 require_img"></div>
+      </div>
+      <img src="imgs/protect.png " alt="" id="protectt">
+      <div>
+        <div class="colors my-4"> <img src="imgs/dos-a.png" alt="" class="border_green ms-2 me-3 require_img"> Wash Your Hands</div>
+        <div class="colors my-4"> <img src="imgs/dos-b.png" alt="" class="border_green ms-3 me-3 require_img"> Drink Much Water</div>
+        <div class="colors my-4"> <img src="imgs/dos-c.png" alt="" class="border_green me-3 require_img"> Use Face Mask</div>
+        
+     </div>
+
+   </div>
+   </div>
+</section>
+<!-- ========================================QUESTIONS============================================ -->
+<section class="questions container " id="faq">
+  <div class="pb-2 text-center">
+    <h6 class="colors">FREQUENTLY ASKED QUESTIONS</h6>
+    <h1 class="font colorm my-2">COMMON QUESTION & ANSWER</h1>
+   </div>
+   <div class="d-md-flex justify-content-between" >
+       <div class="d-flex flex-column container width_35">
+        <button class="btn border p-3 my-1 d-flex justify-content-between" onclick="displaypa()">Coronavirus Disease 2019 Basics <span><i class="fa-solid fa-arrow-right"></i></span></button>
+        <button class="btn border p-3 my-1 d-flex justify-content-between" onclick="displaypb()">How it Spreads<span><i class="fa-solid fa-arrow-right"></i></span></button>
+        <button class="btn border  p-3 my-1 d-flex justify-content-between" onclick="displaypc()">How to Protect Yourself<span><i class="fa-solid fa-arrow-right"></i></span></button>
+        <button class="btn border p-3 my-1 d-flex justify-content-between" onclick="displaypd() ">Symptoms & Testing <span><i class="fa-solid fa-arrow-right"></i></span></button>
+        <button class="btn border p-3 my-1 d-flex justify-content-between" onclick="displaype()">Outbreaking in Your Community <span><i class="fa-solid fa-arrow-right"></i></span></button>
+        <button class="btn border  p-3 my-1 d-flex justify-content-between" onclick="displaypf()">Myth-Bustors of Coronavirus <span><i class="fa-solid fa-arrow-right"></i></span></button>
+       </div>
+   
+       <div class="d-flex flex-column container width_50 P_B my-3" style="display: none !important;">
+        <div class="border p-4 list">
+        <div class="d-flex justify-content-between plus">
+          <div class="colors">What is a novel coronavirus?</div>
+          <i class="fa-solid fa-plus pls"></i>
+          <i class="fa-solid fa-minus" style="display: none;"></i>
+        </div>
+        <div class="my-3" style="display: none;">
+            <div class="my-2">
+              Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            </div>
+            <div class="my-2">
+              COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+            </div>
+            <div class="my-2">
+              While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+            </div>
+        </div>
+
+       </div>
+
+       <div class="border p-4  list">
+        <div class="d-flex justify-content-between plus">
+          <div class="colors">What is a novel coronavirus?</div>
+          <i class="fa-solid fa-plus pls"></i>
+          <i class="fa-solid fa-minus" style="display: none;"></i>
+        </div>
+        <div class="my-3" style="display: none;">
+            <div class="my-2">
+              Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            </div>
+            <div class="my-2">
+              COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+            </div>
+            <div class="my-2">
+              While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+            </div>
+        </div>
+        
+       </div>
+
+       <div class="border p-4 list">
+        <div class="d-flex justify-content-between plus">
+          <div class="colors">What is a novel coronavirus?</div>
+          <i class="fa-solid fa-plus pls"></i>
+          <i class="fa-solid fa-minus" style="display: none;"></i>
+        </div>
+        <div class="my-3" style="display: none;">
+            <div class="my-2">
+              Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            </div>
+            <div class="my-2">
+              COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+            </div>
+            <div class="my-2">
+              While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+            </div>
+        </div>
+        
+       </div>
+
+       <div class="border p-4 list">
+        <div class="d-flex justify-content-between plus">
+          <div class="colors">What is a novel coronavirus?</div>
+          <i class="fa-solid fa-plus pls"></i>
+          <i class="fa-solid fa-minus" style="display: none;"></i>
+        </div>
+        <div class="my-3" style="display: none;">
+            <div class="my-2">
+              Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            </div>
+            <div class="my-2">
+              COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+            </div>
+            <div class="my-2">
+              While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+            </div>
+        </div>
+
+       </div>
+
+       <div class="border p-4 list">
+        <div class="d-flex justify-content-between plus">
+          <div class="colors">What is a novel coronavirus?</div>
+          <i class="fa-solid fa-plus pls"></i>
+          <i class="fa-solid fa-minus" style="display: none;"></i>
+        </div>
+        <div class="my-3" style="display: none;">
+            <div class="my-2">
+              Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+            </div>
+            <div class="my-2">
+              COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+            </div>
+            <div class="my-2">
+              While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+            </div>
+        </div>
+
+       </div>
+      </div>
+  
+      <div class="d-flex flex-column container width_50 P_A  my-3" >
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is a novel coronavirus?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+           </div>
+           <div class="my-2">
+             COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+           </div>
+           <div class="my-2">
+             While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4  list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Why is the disease being called coronavirus disease 2019,COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            The COVID-19 pandemic means that many of us are staying at home and doing less in terms of social interactions and exercise. This can have a negative effect on your physical and mental health. 
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">How can people help stop stigma related to COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            Keep informed. Listen to advice and recommendations from your national and local authorities. Follow trusted news channels, such as local and national TV and radio, and keep up-to-date with the latest news from @WHO on social media.
+           </div>
+           <div class="my-2">
+            Minimize newsfeeds. Try to reduce how much you watch, read or listen to news that makes you feel anxious or distressed. Seek the latest information at specific times of the day, once or twice a day if needed. 
+           </div>
+           <div class="my-2">
+            Alcohol and drug use. Limit the amount of alcohol you drink or don’t drink alcohol at all. Don’t start drinking alcohol if you have not drunk alcohol before. Avoid using alcohol and drugs as a way of dealing with fear, anxiety, boredom and social isolation.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Why might someone blame or avoid individuals and groups?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            People in the U.S. may be worried or anxious about friends and relatives who are living in or visiting areas where COVID-19 is spreading. Some people are worried about the disease. Fear and anxiety can lead to social stigma, for example, towards Chinese or other Asian Americans or people who were in quarantine.
+           </div>
+           <div class="my-2">
+            Stigma is discrimination against an identifiable group of people, a place, or a nation. Stigma is associated with a lack of knowledge about how COVID-19 spreads, a need to blame someone, fears about disease and death, and gossip that spreads rumors and myths.
+           </div>
+           <div class="my-2">
+            Stigma hurts everyone by creating more fear or anger towards ordinary people instead of the disease that is causing the problem.
+
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is a novel coronavirus?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            Coronavirus disease 2019 (COVID-19) is defined as illness caused by a novel coronavirus called severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2; formerly called 2019-nCoV), which was first identified amid an outbreak of respiratory illness cases in Wuhan City, Hubei Province, China. [1] It was initially reported to the WHO on December 31, 2019. On January 30, 2020, the WHO declared the COVID-19 outbreak a global health emergency. [2, 3] On March 11, 2020, the WHO declared COVID-19 a global pandemic, its first such designation since declaring H1N1 influenza a pandemic in 2009. 
+           </div>
+           <div class="my-2">
+            Illness caused by SARS-CoV-2 was termed COVID-19 by the WHO, the acronym derived from "coronavirus disease 2019. " The name was chosen to avoid stigmatizing the virus's origins in terms of populations, geography, or animal associations
+           </div>
+       </div>
+
+      </div>
+    </div> 
+
+    <div class="d-flex flex-column container width_50 P_C  my-3" style="display: none !important;"> 
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">How to protect yourself?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            The colder months have arrived, bringing with it an increase in flu and Covid infections, putting those with underlying health concerns at risk. Even though there are no longer any rules in force, there are several easy things you can do to limit your chances of catching and spreading the virus
+           </div>
+           <div class="my-2">
+            Covid, along with a variety of other respiratory illnesses like the flu, can spread quickly and give some people serious side effects. Even if you don’t display Covid symptoms, you can still infect others.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4  list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Steps to take?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            When an infected person is close to other people or shares an enclosed and/or poorly ventilated space with them, the chance of passing it on increases. Small particles containing the virus that causes the infection are released when a person with a respiratory viral infection, such as Covid, breathes, speaks, coughs, or sneezes. These specks may be inhaled or may make contact with the mouth, nose, or eyes. Additionally, the particles have the ability to fall to the ground and spread by touching people.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Dangers to avoid?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            You won’t always be able to tell whether someone you interact with has a higher risk of developing a serious respiratory infection, like Covid. They might be strangers, like the people you sit next to on a bus or train, or they might be people you interact with frequently, for example, friends and colleagues.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is a novel coronavirus?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+           </div>
+           <div class="my-2">
+             COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+           </div>
+       </div>
+
+      </div>
+
+      </div>
+    
+
+
+     <div class="d-flex flex-column container width_50 P_D  my-3" style="display: none !important;;">
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Who is at higher risk for serious illness from COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            People of any age can catch COVID-19. But it most commonly affects middle-aged and older adults. The risk of developing dangerous symptoms increases with age, with those who are age 85 and older are at the highest risk of serious symptoms. In the U.S., about 81% of deaths from the disease have been in people age 65 and older. Risks are even higher for older people when they have other health conditions.
+           </div>
+           <div class="my-2">
+            Take all your medications as prescribed. Consider developing a care plan that includes information about your medical conditions, medications, providers' names and emergency contacts.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4  list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Should I wear a mask to protect myself?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            If you are sick with respiratory illness, you should wear a well-fitting mask over your nose and mouth if you must be around other people or animals, including pets (even at home). You don't need to wear the face covering if you are alone. If you can't put on a face covering (because of trouble breathing for example), cover coughs and sneezes in some other way
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What should I do If I had close contact with some who has COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            A person can be reinfected with COVID-19 as soon as 28 days after recovering from a previous COVID-19 infection. If you had COVID-19 and you become a close contact in the 28 days since your release from isolation, you don’t need to follow the rules that apply to close contacts. However, if more than 28 days have passed since your release from isolation and you become a close contact, you should get tested and follow the close contact rules of the state or territory that you are in.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">what should I do?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+           </div>
+           <div class="my-2">
+             While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is symptoms?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+           </div>
+           <div class="my-2">
+             While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+           </div>
+       </div>
+
+      </div>
+    </div> 
+
+    <div class="d-flex flex-column container width_50 P_E  my-3" style="display: none !important;"> 
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">How to protect yourself?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            The colder months have arrived, bringing with it an increase in flu and Covid infections, putting those with underlying health concerns at risk. Even though there are no longer any rules in force, there are several easy things you can do to limit your chances of catching and spreading the virus
+           </div>
+           <div class="my-2">
+            Covid, along with a variety of other respiratory illnesses like the flu, can spread quickly and give some people serious side effects. Even if you don’t display Covid symptoms, you can still infect others.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4  list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Steps to take?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            When an infected person is close to other people or shares an enclosed and/or poorly ventilated space with them, the chance of passing it on increases. Small particles containing the virus that causes the infection are released when a person with a respiratory viral infection, such as Covid, breathes, speaks, coughs, or sneezes. These specks may be inhaled or may make contact with the mouth, nose, or eyes. Additionally, the particles have the ability to fall to the ground and spread by touching people.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Dangers to avoid?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            You won’t always be able to tell whether someone you interact with has a higher risk of developing a serious respiratory infection, like Covid. They might be strangers, like the people you sit next to on a bus or train, or they might be people you interact with frequently, for example, friends and colleagues.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is a novel coronavirus?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+           </div>
+           <div class="my-2">
+             COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+           </div>
+       </div>
+
+      </div>
+
+      </div>
+
+    <div class="d-flex flex-column container width_50 P_F  my-3" style="display: none !important;;">
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Who is at higher risk for serious illness from COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            People of any age can catch COVID-19. But it most commonly affects middle-aged and older adults. The risk of developing dangerous symptoms increases with age, with those who are age 85 and older are at the highest risk of serious symptoms. In the U.S., about 81% of deaths from the disease have been in people age 65 and older. Risks are even higher for older people when they have other health conditions.
+           </div>
+           <div class="my-2">
+            Take all your medications as prescribed. Consider developing a care plan that includes information about your medical conditions, medications, providers' names and emergency contacts.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4  list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">Should I wear a mask to protect myself?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            If you are sick with respiratory illness, you should wear a well-fitting mask over your nose and mouth if you must be around other people or animals, including pets (even at home). You don't need to wear the face covering if you are alone. If you can't put on a face covering (because of trouble breathing for example), cover coughs and sneezes in some other way
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What should I do If I had close contact with some who has COVID-19?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+            A person can be reinfected with COVID-19 as soon as 28 days after recovering from a previous COVID-19 infection. If you had COVID-19 and you become a close contact in the 28 days since your release from isolation, you don’t need to follow the rules that apply to close contacts. However, if more than 28 days have passed since your release from isolation and you become a close contact, you should get tested and follow the close contact rules of the state or territory that you are in.
+           </div>
+       </div>
+       
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">what should I do?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             Coronaviruses are a large family of viruses that can cause illness ranging from the common cold to more severe diseases. A “novel” coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+           </div>
+           <div class="my-2">
+             While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+           </div>
+       </div>
+
+      </div>
+
+      <div class="border p-4 list">
+       <div class="d-flex justify-content-between plus">
+         <div class="colors">What is symptoms?</div>
+         <i class="fa-solid fa-plus pls"></i>
+         <i class="fa-solid fa-minus" style="display: none;"></i>
+       </div>
+       <div class="my-3" style="display: none;">
+           <div class="my-2">
+             COVID-19’s animal-to-person spread was suspected after the initial outbreak among people who had a link to a large seafood and live animal market. Because it’s so new, very little is known about how this coronavirus acts. And since there is no vaccine and no established immunity from past cycles, experts believe everyone is susceptible.
+           </div>
+           <div class="my-2">
+             While animals were the original source of the virus, it is now being spread from person to person. What makes the new coronavirus so dangerous to humans is simply that we don’t have any way to fight it. The virus isn’t necessarily more powerful than other viruses when it enters the human body, but we have no pre-existing defenses since our bodies don’t immediately recognize it as a dangerous intruder.
+           </div>
+       </div>
+
+      </div>
+    </div>
+   </div>
+</section>
+ 
+
+<!-- ================================================================updates=========================== -->
+<section class="updates text-center"  id="news">
+ <div class="pb-2">
+  <h6 class="colors">RECENT FROM BLOG</h6>
+  <h1 class="font colorm my-2">LATEST UPDATE</h1>
+ </div>
+  <div class="d-flex justify-content-between my-5 container" style="flex-wrap: wrap;">
+    <div class="p-4 my-2 cardd container" style="width: 18rem;">
+      <img src="imgs/blog-a.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title colorm bold my-2">Caring for someone at home</h5>
+        <p class="card-text my-3">Most people who get sick with COVID-19 will have only mild illness and should
+          recover at home. Care at home can help stop the spread of COVID-19
+        </p>
+      
+      </div>
+    </div>
+    <div class="p-4 my-2 cardd container" style="width: 18rem;">
+      <img src="imgs/blog-b.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title colorm bold my-2">15 ways to keep safe and healthy</h5>
+        <p class="card-text  my-3">Most people who get sick with COVID-19 will have only mild illness and should
+          recover at home. Care at home can help stop the spread of COVID-19
+        </p>
+      
+      </div>
+    </div>
+    <div class="p-4 my-2 cardd container" style="width: 18rem;">
+      <img src="imgs/blog-c.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title colorm bold my-2">If you think you are sick</h5>
+        <p class="card-text  my-3">Most people who get sick with COVID-19 will have only mild illness and should
+          recover at home. Care at home can help stop the spread of COVID-19
+        </p>
+      
+      </div>
+    </div>
+     
+ 
+  </div>
+</section>
+<!-- ======================================footer===================================== -->
+<section class="footer grey">
+<div class="container">
+  <h3 class="font" style="font-size: 40px;">
+    C<span class="text-danger"><i class="fa-solid fa-virus-covid"></i></span>VID 19
+</h3>
+<p>This website is for health information and advice about coronavirus (COVID-19), how to prevent
+  and protect yourself from disease.
+</p>
+<p>Learn about the government response to coronavirus on COV.UK</p>
+<div class="d-sm-flex">
+  <a href="" class="nav-link p-3 m-2 bgcdark">Find us on Facebook</a>
+  <a href="" class="nav-link p-3 m-2 bgcm">Find us on Twitter</a>
+  <a href="" class="nav-link p-3 m-2 bgcred">Find us on Instagram</a>
+</div>
+<div class="d-sm-flex justify-content-between" >
+  <div>
+    <div class="text-light bold py-5 pb-2">QUICK LINK</div>
+    <div class="my-2">About corona</div>
+    <div class="my-2">Symptoms</div>
+    <div class="my-2">Prevention</div>
+    <div class="my-2">Protect yourself</div>
+    <div class="my-2">FAQs</div>
+  </div>
+  <div>
+    <div class="text-light bold py-5 pb-2">HELPFULL LINK</div>
+    <div class="my-2">Healthcare Professionals</div>
+    <div class="my-2">Healthcare Facilities</div>
+    <div class="my-2">Older Adukts & medical conditions</div>
+    <div class="my-2">Reoare your Family</div>
+  </div>
+  <div>
+    <div class="text-light bold py-5 pb-2">IMPORTANT LINK</div>
+    <div class="my-2">WHO Website</div>
+    <div class="my-2">CDC Website</div>
+    <div class="my-2">NHS Website</div>
+    <div class="my-2">Harvard Health</div>
+  </div>
+</div>
+<div style="font-size: 13px;" class="border-top borderc my-5">
+  <div class="my-4">
+    <p>2022 COVID-19 Template made by <span class="bold text-light">AHMED WALEED</span> Thanks to-Ahmed-</p>
+  <div>Disclamer: We hope you find the information presented on this website useful. This website is for general information and raise awareness of (2019-nCoV) only.
+    All the information based on WHO, NHS and CDC wbsite. Information on our website is meant for awareness. If you have any doubt please verify from respective site.
+  </div>
+  </div>
+  
+</div>
+</div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
